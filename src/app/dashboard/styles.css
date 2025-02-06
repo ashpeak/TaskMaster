@@ -1,0 +1,65 @@
+/* Light Theme */
+:root {
+    --fc-header-bg-color: #0b0b0b;
+    --fc-header-text-color: #fefefe;
+}
+
+
+@media (max-width: 769px) {
+    .fc-header-toolbar {
+        flex-direction: column;
+    }
+
+    .fc-header-toolbar .fc-toolbar-chunk {
+        margin-bottom: 10px;
+    }
+
+    .fc-header-toolbar .fc-toolbar-chunk:last-child {
+        margin-bottom: 0;
+    }
+
+    .fc-header-toolbar .fc-toolbar-chunk button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+  
+  /* Change the border color of the grid header cells */
+  .fc .fc-col-header-cell {
+    border-color: rgb(90, 90, 90);
+  }
+
+  .fc .fc-col-header-cell-cushion {
+    border-color: rgb(90, 90, 90);
+  }
+
+/* Change the border color of the grid rows */
+.fc .fc-daygrid-day {
+    border-color: rgb(90, 90, 90);
+    /* Change this to your desired border color */
+}
+
+/* Change the border color of the grid columns */
+.fc .fc-daygrid-day-top {
+    border-color: red;
+    /* Change this to your desired border color */
+}
+
+.fc .fc-col-header-cell {
+    background-color: var(--fc-header-bg-color);
+    color: var(--fc-header-text-color);
+}
+
+.fc .fc-col-header-cell-cushion {
+    color: var(--fc-header-text-color);
+}
+
+/* Other existing styles */
+.fc-header-toolbar .fc-toolbar-chunk:last-child {
+    margin-bottom: 0;
+}
+
+.fc-header-toolbar .fc-toolbar-chunk button {
+    font-size: 12px;
+    padding: 5px 10px;
+}
