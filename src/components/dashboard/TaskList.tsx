@@ -126,4 +126,4 @@ const TaskList = ({
   )
 }
 
-export default React.memo(TaskList);
+export default TaskList;

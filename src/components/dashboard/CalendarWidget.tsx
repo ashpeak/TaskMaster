@@ -72,4 +72,4 @@ const Calendar = () => {
   );
 }
 
-export default React.memo(Calendar);
+export default Calendar;
